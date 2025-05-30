@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".tugas10.roomdatabase.fragment.update.UpdateFragment">
+
+    <EditText
+    android:id="@+id/etHari"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Hari"
+    app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/etJam"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="Jam"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etHari"/>
+
+    <EditText
+        android:id="@+id/etMenit"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="Menit"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@id/etJam"
+        app:layout_constraintTop_toBottomOf="@id/etHari"/>
+
+    <EditText
+        android:id="@+id/etMatakuliah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Matakuliah"
+        app:layout_constraintTop_toBottomOf="@id/etJam"/>
+
+    <EditText
+        android:id="@+id/etDosen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dosen"
+        app:layout_constraintTop_toBottomOf="@id/etMatakuliah"/>
+
+    <Button
+        android:id="@+id/btnTambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:text="Tambah"
+        app:layout_constraintTop_toBottomOf="@id/etDosen"/>
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/warnaLatarApp"
+        android:text="update"
+        app:layout_constraintTop_toBottomOf="@id/btnTambah"/>
+
+    <Button
+        android:id="@+id/btnDelet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Delet"
+        app:layout_constraintTop_toBottomOf="@id/btnUpdate"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">PPLM</string>
+
+    <string name="hello">Halo Semua!</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="tombol">Login</string>
+    <string name="judul">Halaman Login</string>
+
+    <string name="text_kalkulator">Kalkulator Balok Sederhana</string>
+    <string name="txt_panjang">Panjang</string>
+    <string name="txt_lebar">Lebar</string>
+    <string name="txt_tinggi">Tinggi</string>
+    <string name="txt_hitung">Hitung</string>
+    <string name="txt_hapus">Hapus</string>
+    <string name="txt_hasil">Hasil Perhitungan</string>
+
+    <string name="activity_pertama">Activity Pertama</string>
+    <string name="activity_kedua">Activity Kedua</string>
+    <string name="menuju_activity_kedua">Menuju Activity Kedua</string>
+    <string name="tekan">Klik</string>
+    <string name="kembali">Kembali</string>
+
+
+    <string name="frag1">Halaman Inbox</string>
+    <string name="frag2">Halaman Draf</string>
+    <string name="frag3">Halaman Sent</string>
+    <string name="nama_user">Rally Mizanur</string>
+
+    <string name="order">PESAN</string>
+    <string name="next">Selanjutnya</string>
+    <string name="deliv">ANTAR</string>
+    <string name="accept">TERIMA</string>
+    <string name="finish">Selesai</string>
+    <string name="home">HALAMAN UTAMA</string>
+    <string name="start">Mulai</string>
+
+    <string name="teks">CONTOH TEKS</string>
+    <string name="judul1">Horizontal scroll view</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="halaman_utama">Halaman Utama</string>
+    <string name="halaman_inbox">Halaman Inbox</string>
+    <string name="halaman_draft">Halaman Draft</string>
+    <string name="halaman_send">Halaman Send</string>
+    <string name="nama_profile">Rally Mizanur</string>
+    <string name="prodi">Teknik Informatika</string>
+    <string name="inbox">Inbox</string>
+    <string name="draft">Draft</string>
+    <string name="send">Send</string>
+    <string name="halaman_help">Halaman Help</string>
+    <string name="halaman_setting">Halaman Setting</string>
+    <string name="controls">Controls</string>
+    <string name="setting">Setting</string>
+    <string name="help">Help</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="judull">Halaman Detail Dosen</string>
+    <string name="nama">Nama Dosen</string>
+    <string name="contoh_nama">Rally Mizanur</string>
+    <string name="kompetensi">Kompetensi</string>
+    <string name="judul_utama">List Dosen Teknik Informatika</string>
+    <string name="nip">NIP</string>
+    <string name="nama_matakuliah">Nama Matakuliah</string>
+    <string name="ruang_kelas">Ruang Kelas</string>
+
+
+    <!--Alaram-->
+    <string name="judul_alaram">Alarm Manager</string>
+    <string name="set_alarm">Set Alarm Sekarang</string>
+
+    <!--gestur 1-->
+    <string name="img_desc">Deskripsi Gambar</string>
+    <!--Gestur 2-->
+    <string name="scroll">Efek Scroll</string>
+    <string name="single_tap">Efek Tekan Sekali</string>
+    <string name="double_tap">Efek Tekan Dua Kali</string>
+    <string name="long_press">Efek Tekan Lama</string>
+    <string name="fling">Efek Fling</string>
+
+
+</resources>
